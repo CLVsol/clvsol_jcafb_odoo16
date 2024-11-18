@@ -167,28 +167,28 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('l10n_br_zip', self.upgrade_all, group_names)
 
-        # # ############################################################################################
-        # #
-        # # CLVsol Odoo Addons
-        # #
-        # # ############################################################################################
+        # ############################################################################################
+        #
+        # CLVsol Odoo Addons
+        #
+        # ############################################################################################
 
-        # # group_names = [
-        # #     'User (Base)',
-        # #     'Super User (Base)',
-        # #     'Annotation User (Base)',
-        # #     'Register User (Base)',
-        # #     'Log User (Base)',
-        # #     'Manager (Base)',
-        # #     'Super Manager (Base)',
-        # # ]
-        # self.install_upgrade_module('clv_base', self.upgrade_all, group_names)
+        # group_names = [
+        #     'User (Base)',
+        #     'Super User (Base)',
+        #     'Annotation User (Base)',
+        #     'Register User (Base)',
+        #     'Log User (Base)',
+        #     'Manager (Base)',
+        #     'Super Manager (Base)',
+        # ]
+        self.install_upgrade_module('clv_base', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_phase', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_phase', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_file_system', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_file_system', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_global_tag', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_global_tag', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_set', self.upgrade_all, group_names)
 
@@ -210,13 +210,13 @@ class CLVhealthJCAFB(object):
 
         # self.install_upgrade_module('clv_lab_test_survey', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_partner_entity', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_partner_entity', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_residence', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_residence_history', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_patient_history', self.upgrade_all, group_names)
 
@@ -283,8 +283,6 @@ class CLVhealthJCAFB(object):
         # # CLVsol Odoo Addons - JCAFB customizations
         # #
         # # ############################################################################################
-
-        # self.install_upgrade_module('clv_base_jcafb', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_employee_jcafb', self.upgrade_all, group_names)
 
