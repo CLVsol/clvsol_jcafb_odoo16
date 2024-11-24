@@ -252,6 +252,43 @@ class CLVhealthJCAFB(object):
 
         # # self.install_upgrade_module('clv_person_aux', self.upgrade_all, group_names)
 
+        self.install_upgrade_module('clv_external_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_base_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_phase_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_file_system_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_global_tag_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_set_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_employee_sync', self.upgrade_all, group_names)
+
+        # self.install_upgrade_module('clv_employee_history_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_survey_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_event_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_document_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_document_survey_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_lab_test_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_lab_test_survey_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_residence_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_residence_history_sync', self.upgrade_all, group_names)
+
+        self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
+
+        # # self.install_upgrade_module('clv_patient_history_sync', self.upgrade_all, group_names)
         # # ############################################################################################
         # #
         # # CLVsol Odoo Addons - Brazilian Localization
@@ -506,43 +543,6 @@ class CLVhealthJCAFB(object):
         # #
         # # ############################################################################################
 
-        # self.install_upgrade_module('clv_external_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_base_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_phase_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_file_system_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_global_tag_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_set_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_employee_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_employee_history_sync', self.upgrade_all, group_names)
-
-        # self.install_upgrade_module('clv_survey_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_event_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_document_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_document_survey_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_lab_test_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_lab_test_survey_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_residence_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_residence_history_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
-
-        # # self.install_upgrade_module('clv_patient_history_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_patient_aux_sync', self.upgrade_all, group_names)
 
