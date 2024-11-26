@@ -196,7 +196,7 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_employee', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_employee_history', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_employee_history', self.upgrade_all, group_names)
 
         self.install_upgrade_module('clv_survey', self.upgrade_all, group_names)
 
@@ -266,9 +266,9 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_employee_sync', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_employee_history_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_employee_history_sync', self.upgrade_all, group_names)
 
-        self.install_upgrade_module('clv_survey_sync', self.upgrade_all, group_names)
+        # self.install_upgrade_module('clv_survey_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_event_sync', self.upgrade_all, group_names)
 
@@ -280,13 +280,13 @@ class CLVhealthJCAFB(object):
 
         # # self.install_upgrade_module('clv_lab_test_survey_sync', self.upgrade_all, group_names)
 
-        self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
+        # self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_residence_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_residence_history_sync', self.upgrade_all, group_names)
 
-        self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
+        # self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_patient_history_sync', self.upgrade_all, group_names)
         # # ############################################################################################
