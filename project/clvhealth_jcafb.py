@@ -200,9 +200,9 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_survey', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_event', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_event', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_document', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_document', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_document_survey', self.upgrade_all, group_names)
 
@@ -270,9 +270,9 @@ class CLVhealthJCAFB(object):
 
         # self.install_upgrade_module('clv_survey_sync', self.upgrade_all, group_names)
 
-        # # self.install_upgrade_module('clv_event_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_event_sync', self.upgrade_all, group_names)
 
-        # # self.install_upgrade_module('clv_document_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_document_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_document_survey_sync', self.upgrade_all, group_names)
 
