@@ -206,13 +206,13 @@ class CLVhealthJCAFB(object):
 
         # self.install_upgrade_module('clv_document_survey', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_lab_test', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_lab_test', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_lab_test_survey', self.upgrade_all, group_names)
 
         self.install_upgrade_module('clv_partner_entity', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_residence', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_residence', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_residence_history', self.upgrade_all, group_names)
 
@@ -276,17 +276,17 @@ class CLVhealthJCAFB(object):
 
         # # self.install_upgrade_module('clv_document_survey_sync', self.upgrade_all, group_names)
 
-        # # self.install_upgrade_module('clv_lab_test_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_lab_test_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_lab_test_survey_sync', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_partner_entity_sync', self.upgrade_all, group_names)
 
-        # # self.install_upgrade_module('clv_residence_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_residence_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_residence_history_sync', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient_sync', self.upgrade_all, group_names)
 
         # # self.install_upgrade_module('clv_patient_history_sync', self.upgrade_all, group_names)
         # # ############################################################################################
