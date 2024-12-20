@@ -292,11 +292,11 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_summary', self.upgrade_all, group_names)
 
-        # # ############################################################################################
-        # #
-        # # CLVsol Odoo Addons - Summary - JCAFB customizations
-        # #
-        # # ############################################################################################
+        # ############################################################################################
+        #
+        # CLVsol Odoo Addons - Summary - JCAFB customizations
+        #
+        # ############################################################################################
 
         self.install_upgrade_module('clv_summary_jcafb', self.upgrade_all, group_names)
 
@@ -306,13 +306,13 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_patient_summary_jcafb', self.upgrade_all, group_names)
 
-        # # ############################################################################################
-        # #
-        # # CLVsol Odoo Addons - Verification
-        # #
-        # # ############################################################################################
+        # ############################################################################################
+        #
+        # CLVsol Odoo Addons - Verification
+        #
+        # ############################################################################################
 
-        # self.install_upgrade_module('clv_verification', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_verification', self.upgrade_all, group_names)
 
         # # ############################################################################################
         # #
@@ -320,19 +320,19 @@ class CLVhealthJCAFB(object):
         # #
         # # ############################################################################################
 
-        # self.install_upgrade_module('clv_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_verification_jcafb', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_verification_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_partner_entity_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_partner_entity_verification_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient_rec_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient_rec_verification_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_residence_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_residence_verification_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient_verification_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_lab_test_verification_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_lab_test_verification_jcafb', self.upgrade_all, group_names)
 
         # # ############################################################################################
         # #
