@@ -268,17 +268,17 @@ class CLVhealthJCAFB(object):
 
         # # # self.install_upgrade_module('clv_global_tag_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_document_log_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_document_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_lab_test_log_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_lab_test_log_jcafb', self.upgrade_all, group_names)
 
         # self.install_upgrade_module('clv_partner_entity_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_residence_log_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_residence_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient_log_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient_log_jcafb', self.upgrade_all, group_names)
 
-        # self.install_upgrade_module('clv_patient_rec_log_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_patient_rec_log_jcafb', self.upgrade_all, group_names)
 
         # # # self.install_upgrade_module('clv_processing_log_jcafb', self.upgrade_all, group_names)
 
