@@ -256,7 +256,7 @@ class CLVhealthJCAFB(object):
         # #
         # # ############################################################################################
 
-        # self.install_upgrade_module('clv_global_log', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_global_log', self.upgrade_all, group_names)
 
         # # ############################################################################################
         # #
