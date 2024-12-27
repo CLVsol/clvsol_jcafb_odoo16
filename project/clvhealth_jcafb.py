@@ -472,7 +472,7 @@ class CLVhealthJCAFB(object):
 
         self.install_upgrade_module('clv_patient_rec_sync_jcafb', self.upgrade_all, group_names)
 
-        # # self.install_upgrade_module('clv_verification_sync_jcafb', self.upgrade_all, group_names)
+        self.install_upgrade_module('clv_verification_sync_jcafb', self.upgrade_all, group_names)
 
         # # # # self.install_upgrade_module('clv_export_sync_jcafb', self.upgrade_all, group_names)
 
